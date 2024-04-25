@@ -1,0 +1,35 @@
+{
+  "name": "test1",
+  "version": "0.0.1",
+  "description": "测试\r hello word",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release":"webpack",
+    "example":"http-server -p 8880",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuri66/test1.git"
+  },
+  "keywords": [
+    "test1"
+  ],
+  "author": "liuri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuri66/test1/issues"
+  },
+  "homepage": "https://github.com/liuri66/test1#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack-cli": "^5.1.4"
+    
+  }
+}
