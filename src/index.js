@@ -1,9 +1,10 @@
-// alert('fast-cache');
+
 class FastCache{
     constructor(){
         this.list={}
     }
     set(key,value){
+        alert('fast-cache');
         this.list[key] = value
     }
     get(key){
