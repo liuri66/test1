@@ -5,6 +5,7 @@ class FastCache{
     }
     set(key,value){
         alert('fast-cache');
+        console.log('test')
         this.list[key] = value
     }
     get(key){
